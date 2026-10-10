@@ -1,0 +1,4 @@
+/target/
+.env
+*.log
+\n.github/workflows/\n

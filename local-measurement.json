@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10T21:41:49.075Z",
+  "workload": "300 sequential localhost POST /v1/evaluate requests; 20 warmups; two-option policy; includes client HTTP/JSON overhead; no model inference",
+  "build": "Rust release",
+  "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor           ",
+  "platform": "win32",
+  "p50_ms": 0.332,
+  "p95_ms": 0.708,
+  "p99_ms": 1.181
+}

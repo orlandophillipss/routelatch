@@ -1,0 +1,16 @@
+{
+  "policy": {
+    "revision": "v1",
+    "min_confidence": 0.8,
+    "budget_units": 3,
+    "workflows": {
+      "research": { "description": "Find and verify external evidence", "cost_units": 3 },
+      "summarise": { "description": "Summarise supplied material", "cost_units": 1 }
+    }
+  },
+  "decision": {
+    "choice": "research",
+    "confidence": 0.9,
+    "probabilities": { "research": 0.95, "summarise": 0.05 }
+  }
+}
